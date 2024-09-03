@@ -48,6 +48,7 @@ This is a project made for the Agile Monkeys recruitment process.
 * [![Python][Python]][Python-url]
 * [![Django][Django]][Django-url]
 * [![DjangoRF][DjangoRF]][DjangoRF-url]
+* [![DjangoOAuthToolkit][Django-OAuthToolkit]][DjangoOAuthToolkit-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,4 +100,6 @@ This app requires:
 [Django-url]: https://django.org/
 [DjangoRF]: https://img.shields.io/badge/Django&Rest&Framework-3.15.2-35495E?style=for-the-badge&logo=django&logoColor=4FC08D
 [DjangoRF-url]: https://www.django-rest-framework.org/
+[DjangoOAuthToolkit]: https://img.shields.io/badge/Django&Rest&Framework-3.15.2-35495E?style=for-the-badge&logo=django&logoColor=4FC08D
+[DjangoOAuthToolkit-url]: https://github.com/jazzband/django-oauth-toolkit
 

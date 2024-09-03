@@ -13,11 +13,20 @@ class Customer(models.Model):
     name = models.CharField(max_length=150)
     surname = models.CharField(max_length=250)
 
-    updated_by = models.OneToOneField(
+    updated_by = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
+        null=True,
+        related_name='updated_by'
     )
-    photo = models.ImageField(upload_to="customer_photos")
+
+    created_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name='created_by'
+    )
+
+    photo = models.ImageField(upload_to="customer_photos", blank=True)
 
 
 
